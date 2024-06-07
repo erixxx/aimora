@@ -1,0 +1,2 @@
+# aimora
+AI sensual companions
