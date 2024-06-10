@@ -123,15 +123,15 @@
 	  const assistant = "21f10332-8198-4a2b-b3d6-5dc6d7f7b892"; // Substitute with your assistant ID
 	  const apiKey = "59873e62-501a-4d3b-adde-3507f87c4f73"; // Substitute with your Public key from Vapi Dashboard.
 	  const buttonConfig = {
-		  position: "bottom-right", // "bottom" | "top" | "left" | "right" | "top-right" | "top-left" | "bottom-left" | "bottom-right"
+		  position: "bottom", // "bottom" | "top" | "left" | "right" | "top-right" | "top-left" | "bottom-left" | "bottom-right"
 		  offset: "40px", // decide how far the button should be from the edge
 		  width: "50px", // min-width of the button
 		  height: "50px", // height of the button
 		  idle: { // button state when the call is not active.
 			color: `rgb(93, 254, 202)`, 
 			type: "pill", // or "round"
-			title: "Have a quick question?", // only required in case of Pill
-			subtitle: "Talk with our AI assistant", // only required in case of pill
+			title: "Talk to our companion", // only required in case of Pill
+			subtitle: "Talk with our AI companion", // only required in case of pill
 			icon: `https://unpkg.com/lucide-static@0.321.0/icons/phone.svg`,
 		  },
 		  loading: { // button state when the call is connecting
